@@ -24,31 +24,33 @@ Do NOT:
 
 **Did you use any AI tools to help with this assignment?**
 
-_____ Yes     _____ No
+✅ Yes     _____ No
 
 **If yes, please tell us:**
 
 1. **What tools did you use?** (e.g., ChatGPT, Claude, GitHub Copilot)
    
+   GOOGLE GEMINI
    _________________________________________________________________
 
 2. **What specific things did you ask them to do?** (Be specific)
    
-   _________________________________________________________________
-   
+   1. To debug. For example, when my Linear Regression with ElasticNet section failed to run, the issue was one of the keyword arguments (i.e. "column") in my data_processing.py file not being plural, thus breaking my code in the Jupyter notebook. I had to use Google Gemini to fix this bug. 
+   2. To find typos. For example, in one block of code I wrote '.predict.proba' instead of '.predict_proba'.
+   3. To help me add a baseline to my kNN - AUPRC curve.
+   4. To help me understand some of the functions. 
    _________________________________________________________________
 
 3. **How much of your final code came from AI vs. your own work?** (e.g., "AI gave me the formula, I wrote the loop" or "AI helped me debug an error")
    
-   _________________________________________________________________
-   
+   Please refer to previous question. 
    _________________________________________________________________
 
 4. **Can you explain your code?** (Can you walk through what each function does and why you wrote it that way?)
    
    _____ Yes, I can explain it well
    
-   _____ Mostly, but I have some questions
+      ✅ Mostly, but I have some questions
    
    _____ No, I'm not sure I understand it
 
